@@ -1,0 +1,78 @@
+
+.loginbtn{
+    outline: none;
+    border: 2px solid transparent;
+    &:hover, &:active{
+        color: red !important;
+        border-color:  red !important;
+        background-color: transparent !important;
+    }
+    &:focus{
+        background: none;
+    }
+}
+.signupbtn{
+    background-color: rgba(255, 0, 0, 0.393);
+    color: white;
+    font-weight: 700;
+    padding: 12px 24px;
+    font-size: 18px;
+    line-height: 24px;
+    border: 2px solid red;
+
+}
+.distributebtn{
+    padding: 12px 24px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.cardbtn{
+    margin-left: 30%;
+    margin-block: 15%;
+    border: 2px solid red;
+}
+
+
+@include media-breakpoint(basic) {
+}
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {}
+
+@include media-breakpoint-up(lg) {}
+
+@include media-breakpoint-up(xl) {}
+
+@include media-breakpoint-up(xxl) {}
+
+
+@include media-breakpoint-down(xxl) {}
+
+@include media-breakpoint-down(xl) {
+    .signupbtn{
+        font-size: 15px;
+        }
+}
+
+@include media-breakpoint-down(lg) {
+    .signupbtn{
+        margin-left: 0 !important;
+        }
+    .distributebtn{
+        font-size: 14px;
+        
+    }
+}
+
+@include media-breakpoint-down(md) {}
+
+@include media-breakpoint-down(sm) {
+    
+}
+
+
+
+
+
+

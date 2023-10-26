@@ -1,0 +1,1087 @@
+@charset "UTF-8";
+// hero section start 
+.videocontainerfluid{
+    position: relative;
+    margin-top: 70px;
+    & .videobox::before{
+            background-color: rgba(0, 0, 0, 0.648) ;
+            position: absolute;
+            height: 100%;
+            content: '';
+            width: 100%;
+            top: 0;
+            left: 0;
+    }
+    & .videocontainer{
+        top: 24%;
+        left: 9%;
+        }
+        & .releasetxt{
+        color: white !important;
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 99px;
+        }
+        & .beattxt{
+            font-size: 25px;
+            color: white;
+            padding-block: 20px;
+        }
+        & .joiningtxt{
+            font-size: 16px;
+            line-height: 22px;
+            color: white;
+        }
+}
+// hero section end
+
+// service section start 
+.serviceconflu{
+        
+        & .shieldimg{
+            width: 82px;
+            height: 82px;
+        }
+        & .shieldtxt{
+            font-size: 24px;
+            font-weight: 600;
+        }
+        & .shield2txt{
+            color: #BEBEBE;
+            font-size: 16px;
+            font-weight: 500;
+        }
+}
+// service section end
+
+// headphone section start
+    .headphoneconflu{
+        // color: white;
+        & .headphoneimg{
+            // width: 58%;
+            & .headshadowimg1{
+                top: -30%;
+                left: -38%;
+            }
+            & .headshadowimg2{
+                top: -38%;
+                left: 20%;
+            }
+        }
+        & .headphoneheading{
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 64px;
+            color: white;
+            & .redspan{
+                color: #EF1E2F;
+            }
+        }
+        & .headpara{
+            font-size: 17px;
+            font-weight: 600;
+            color: #BEBEBE;
+        }
+    }
+// headphone section End
+
+// Card Section Start
+
+    .cardcontainerflu{
+        margin-top: 8%;
+        margin-bottom: 3%;
+        & .card{
+            background-color: #021013;
+            border-radius: 40px;
+            padding-top: 25px;
+            padding-bottom: 40px;
+            box-shadow: inset 0px 0px 5px 0px #bebebe5c;
+            & .cardnumber{
+                border: 2px solid #3D3D3D;
+                color: #BEBEBE;
+                margin-right: auto;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 20px;
+            }
+            & .cardimgdiv{
+                width: 100px;
+                height: 100px;
+                margin-inline: auto;
+            }
+            & .card-body{
+                & .card-title{
+                    font-size: 24px;
+                    color: white;
+                    text-align: center;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+                & .card-text{
+                    color: #BEBEBE;
+                    font-size: 17px;
+                    text-align: center;
+                }
+            }
+        }
+        .joiningcctxt{
+            color: #BEBEBE;
+            font-size: 16px;
+        }
+    }
+
+// Card Section Ends
+
+// marquee Section Start
+.marqueeconflu{
+    // padding-block: 30px;
+    & .carousel{
+        padding-block: 61px;
+    & .slides{
+        animation: moveSlideshow 15s linear infinite alternate;
+        @keyframes moveSlideshow {
+            0% {
+                transform: translateX( 0%);
+            }
+            100% { 
+                transform: translateX(-50%);  
+            }
+        }
+        & .marqueeimg{
+            & img{
+                max-height: 38px;
+            }
+        }
+    }
+    }
+}
+//  marquee Section Ends
+
+// Upload Section Start
+    .uploadconflu{
+        background-image: url(../img/uploadsecback01.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        & .uploadtxt{
+            font-size: 64px;
+            color: white;
+            line-height: 64px;
+            padding-bottom: 10px;
+            & .redspan{
+                color: #EF1E2F;
+            }
+        }
+        & .streamtxt{
+            font-size: 24px;
+            color: #BEBEBE;
+        }
+        & .distritext{
+            font-size: 56px;
+            color: white;
+            line-height: 65px;
+            padding-bottom: 28px;
+            padding-top: 50px;
+            & .redspan{
+                color: #EF1E2F;
+            }
+        }
+        & .sidelinertxt{
+            font-size: 18px;
+            color: #BEBEBE;
+        }
+        & .mainimgdiv{
+            background-color: #1b9cb81a;
+            border-radius: 30px;
+            padding: 20px;
+            & .mobileimg{
+                
+                
+            }
+        }
+        & .djparty{
+            background-color: #1b9cb81a;
+            border-radius: 30px;
+            padding: 20px;
+        }
+        & .market{
+            font-size: 56px;
+            color: white;
+            font-weight: 700;
+            padding-left: 40px;
+            margin-bottom: 20px;
+            & .redspan{
+                color: #EF1E2F;
+            }
+        }
+        & .justpublishtxt{
+                font-size: 18px;
+                color: #BEBEBE;
+                padding-left: 40px;
+        }
+    }
+// Upload Section Ends
+
+// Mobile Section Start
+        .mobileconflu{
+            & .mobileimgdiv{
+                width: 520px;
+                // background-image: url(../img/mobilesecback.svg);
+                // background-size: contain;
+                position: relative;
+                &::before{
+                    content: "";
+                    background-image: url(../img/mobilesecback.svg);
+                    position: absolute;
+                    top: 0;
+                    left: -22%;
+                    height: 100%;
+                    width: 100%;
+                    background-size: cover;
+                    z-index: -1;
+                }
+                & .mobileimg{
+                }
+            }
+            & .rightchoicrtxt{
+                color: white;
+                font-size: 64px;
+                line-height: 64px;
+                font-weight: 700;
+                padding-bottom: 40px;
+                padding-left: 35%;
+                & .redspan{
+                    color: #EF1E2F;
+                }
+            }
+            & .authorisedtxt{
+                color: #BEBEBE;
+                font-size: 20px;
+                font-weight: 600;
+                padding-left: 35%;
+                padding-bottom: 20px;
+            }
+            & .distrisec{
+                & .maindiv{
+                    border: 5px solid transparent;
+                    border-radius: 30px;
+                    &:hover{
+                        border: 5px solid #021013;
+                    }
+                }
+                & .starimgdiv{
+                    height: 72px;
+                    width: 72px;
+                }
+                & .distriheading{
+                    color: white;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+                & .distritext{
+                    color: #BEBEBE;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+// Mobile Section Ends
+
+// Rounded Person Start
+        .roundedpersonconflu{
+            & .heading{
+                font-size: 54px;
+                line-height: 58px;
+                color: white;
+                font-weight: 700;
+                padding-bottom: 20px;
+                & .redspan{
+                    color: #EF1E2F;
+                }
+            }
+            & .para{
+                font-size: 18px;
+                line-height: 22px;
+                color: white;
+            }
+            & .personimgdiv{
+                max-width: 480px;
+            }
+        }
+// Rounded Person Ends
+
+// Possibilities Section Start
+        .possibilitiesconflu{
+            & .heading{
+                font-size: 64px;
+                line-height: 64px;
+                font-weight: 800;
+                color: white;
+                & .redspan{
+                    color: #EF1E2F;
+                }
+            }
+            & .joiningcctxt{
+                font-size: 16px;
+                font-weight: 500;
+                color: white;
+            }
+        }
+// Possibilities Section Ends
+
+// Footer Section Start
+        .footerconflu{
+            & .mainhead{
+                font-size: 20px;
+                line-height: 30px;
+                color: white;
+                padding-bottom: 40px;
+                font-weight: 700;
+            }
+            & .heading{
+                color: #BEBEBE;
+                font-size: 16px;
+                padding-block: 10px;
+                font-weight: 600;
+            }
+            & .youtubeimgdiv{
+                padding-bottom: 20px;
+                & .youtubeimg{
+                    padding-bottom: 0 !important;
+                    width: 195px;
+                }
+            }
+            & .iconsimg{
+                max-width: 50px;
+                min-width: 6px;
+                gap: 23px;
+            }
+            & .copyrighttext{
+                font-size: 14px;
+                color: white;
+                margin-inline: auto;
+            }
+            & .copyrighttextuae{
+                font-size: 14px;
+                color: white;
+            }
+        }
+// Footer Section Ends
+
+
+
+
+    @include media-breakpoint(basic) {
+    }
+    @include media-breakpoint-up(sm) {}
+    
+    @include media-breakpoint-up(md) {}
+    
+    @include media-breakpoint-up(lg) {}
+    
+    @include media-breakpoint-up(xl) {}
+    
+    @include media-breakpoint-up(xxl) {}
+    
+    
+    @include media-breakpoint-down(xxl) {}
+    
+    @include media-breakpoint-down(xl) {
+        // hero section start 
+        .videocontainerfluid{
+            
+            & .videobox::before{
+                    
+            }
+            & .videocontainer{
+                left: 5%;
+                }
+                & .releasetxt{
+                    font-size: 66px;
+                    line-height: 70px;
+                }
+                & .beattxt{
+                    font-size: 21px;
+                }
+                & .joiningtxt{
+                    
+                }
+        }
+        // hero section end
+    
+    // Upload Section Start
+    .uploadconflu{
+        & .uploadtxt{
+            font-size: 52px;
+            & .redspan{
+                
+            }
+        }
+        & .streamtxt{
+            
+        }
+        & .distritext{
+            font-size: 49px;
+            & .redspan{
+                
+            }
+        }
+        & .sidelinertxt{
+            font-size: 15px;
+        }
+        & .mainimgdiv{
+            
+            & .mobileimg{
+                
+                
+            }
+        }
+        & .djparty{
+            margin-top: 40px;
+        }
+        & .market{
+            margin-top: 25px;
+            font-size: 49px;
+            & .redspan{
+                
+            }
+        }
+        & .justpublishtxt{
+                font-size: 15px;
+        }
+    }
+    // headphone section start
+    .headphoneconflu{
+            
+        & .headphoneimg{
+            // width: 49%;
+            
+        }
+        & .headphoneheading{
+                font-size: 52px;
+            & .redspan{
+                
+            }
+        }
+        & .headpara{
+            
+        }
+    }
+// headphone section End
+//  Card Section Start
+    .cardcontainerflu{
+        
+        & .card{
+            
+            & .cardnumber{
+                padding: 4px;
+            }
+            & .cardimgdiv{
+                
+            }
+            & .card-body{
+                & .card-title{
+                    
+                }
+                & .card-text{
+                
+                }
+            }
+        }
+        .joiningcctxt{
+            
+        }
+    }
+
+// Card Section Ends
+// Mobile Section Start
+.mobileconflu{
+    & .mobileimgdiv{
+        display: block;
+        margin-inline: auto;
+        & .mobileimg{
+            
+        }
+    }
+    & .rightchoicrtxt{
+        padding-left: 0;
+            & .redspan{
+                
+        }
+    }
+    & .authorisedtxt{
+        padding-left: 0;
+    }
+    & .distrisec{
+        
+        & .starimgdiv{
+            
+        }
+        & .distriheading{
+            
+        }
+        & .distritext{
+            
+        }
+    }
+}
+// Mobile Section Ends
+// Rounded Person Start
+.roundedpersonconflu{
+    & .heading{
+        font-size: 45px;
+        line-height: 47px;
+        & .redspan{
+            
+        }
+    }
+    & .para{
+        font-size: 16px;
+    }
+    & .personimgdiv{
+        
+    }
+}
+// Rounded Person Ends
+// Possibilities Section Start
+.possibilitiesconflu{
+    & .heading{
+        font-size: 53px;
+        line-height: 54px;
+        & .redspan{
+            
+        }
+    }
+    & .joiningcctxt{
+        
+    }
+}
+// Possibilities Section Ends
+}
+
+    @include media-breakpoint-down(lg) {
+         // hero section start 
+        .videocontainerfluid{
+            
+            & .videobox::before{
+                    
+            }
+            & .videocontainer{
+                
+                }
+                & .releasetxt{
+                    font-size: 56px;
+                    line-height: 56px;
+                }
+                & .beattxt{
+                    font-size: 21px;
+                }
+                & .joiningtxt{
+                    font-size: 14px;
+                }
+        }
+        // hero section end
+        // headphone section start
+    .headphoneconflu{
+        
+        & .headphoneimg{
+            width: 49%;
+            
+        }
+        & .headphoneheading{
+                font-size: 52px;
+            & .redspan{
+                
+            }
+        }
+        & .headpara{
+            
+        }
+    }
+// headphone section End
+// marquee Section Start
+.marqueeconflu{
+    // padding-block: 30px;
+    & .carousel{
+        
+    & .slides{
+        
+        
+        & .marqueeimg{
+            & img{
+                max-height: 20px;
+            }
+        }
+    }
+    }
+}
+//  marquee Section Ends
+// Upload Section Start
+.uploadconflu{
+    & .uploadtxt{
+        
+        & .redspan{
+            
+        }
+    }
+    & .streamtxt{
+        
+    }
+    & .distritext{
+        line-height: 48px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        & .redspan{
+            
+        }
+    }
+    & .sidelinertxt{
+        
+    }
+    & .mainimgdiv{
+        
+        & .mobileimg{
+            
+            
+        }
+    }
+    & .djparty{
+        
+    }
+    & .market{
+        padding-left: 0;
+        margin-bottom: 0;
+        & .redspan{
+            
+        }
+    }
+    & .justpublishtxt{
+            padding-left: 0;
+    }
+}
+//  Card Section Start
+
+.cardcontainerflu{
+    
+    & .card{
+        
+        & .cardnumber{
+            
+        }
+        & .cardimgdiv{
+            
+        }
+        & .card-body{
+            & .card-title{
+                
+            }
+            & .card-text{
+            
+            }
+        }
+    }
+    .joiningcctxt{
+        
+    }
+}
+// Card Section Ends
+// Mobile Section Start
+.mobileconflu{
+    & .mobileimgdiv{
+        margin-left: 9%;
+        & .mobileimg{
+
+        }
+    }
+    & .rightchoicrtxt{
+        font-size: 51px;
+        line-height: 44px;
+            & .redspan{
+                
+        }
+    }
+    & .authorisedtxt{
+        font-size: 18px;
+    }
+    & .distrisec{
+        
+        & .starimgdiv{
+            
+        }
+        & .distriheading{
+            
+        }
+        & .distritext{
+            
+        }
+    }
+}
+// Mobile Section Ends
+// Rounded Person Start
+.roundedpersonconflu{
+    & .heading{
+        
+        & .redspan{
+            
+        }
+    }
+    & .para{
+        
+    }
+    & .personimgdiv{
+        
+    }
+}
+// Rounded Person Ends
+// Possibilities Section Start
+.possibilitiesconflu{
+    & .heading{
+        font-size: 40px;
+        line-height: 41px;
+        & .redspan{
+            
+        }
+    }
+    & .joiningcctxt{
+        
+    }
+}
+// Possibilities Section Ends
+}
+    
+    @include media-breakpoint-down(md) {
+         // hero section start 
+        .videocontainerfluid{
+            
+            & .videobox::before{
+                    
+            }
+            & .videocontainer{
+                
+                }
+                & .releasetxt{
+                font-size: 45px;
+                line-height: 55px;
+                }
+                & .beattxt{
+                    font-size: 18px;
+                }
+                & .joiningtxt{
+                    
+                }
+        }
+        // hero section end
+        // headphone section start
+    .headphoneconflu{
+        
+        & .headphoneimg{
+            
+            
+        }
+        & .headphoneheading{
+                font-size: 50px;
+            & .redspan{
+                
+            }
+        }
+        & .headpara{
+            font-size: 15px;
+        }
+    }
+// headphone section End
+// Upload Section Start
+.uploadconflu{
+    & .uploadtxt{
+        font-size: 35px;
+        line-height: 46px;
+        & .redspan{
+            
+        }
+    }
+    & .streamtxt{
+        font-size: 18px;
+    }
+    & .distritext{
+        font-size: 35px;
+        & .redspan{
+            
+        }
+    }
+    & .sidelinertxt{
+        
+    }
+    & .mainimgdiv{
+        
+        & .mobileimg{
+            
+            
+        }
+    }
+    & .djparty{
+        
+    }
+    & .market{
+        font-size: 35px;
+        padding-left: 0;
+        & .redspan{
+            
+        }
+    }
+    & .justpublishtxt{
+        padding-left: 0;   
+    }
+}
+// Upload Section Ends
+// Mobile Section Start
+.mobileconflu{
+    & .mobileimgdiv{
+        margin-left: 10%;
+        width: 350px;
+        & .mobileimg{
+        }
+    }
+    & .rightchoicrtxt{
+        font-size: 40px;
+        line-height: 43px;
+        padding-bottom: 15px;
+            & .redspan{
+                
+        }
+    }
+    & .authorisedtxt{
+        
+    }
+    & .distrisec{
+        
+        & .starimgdiv{
+            
+        }
+        & .distriheading{
+            
+        }
+        & .distritext{
+            
+        }
+    }
+}
+// Mobile Section Ends
+// Rounded Person Start
+.roundedpersonconflu{
+    & .heading{
+        font-size: 31px;
+        line-height: 30px;
+        padding-top: 20px;
+}
+        & .redspan{
+            
+        }
+    
+    & .para{
+        
+    }
+    & .personimgdiv{
+        width: 320px;
+        margin-inline: auto;
+    }
+}
+// Rounded Person Ends
+// Possibilities Section Start
+.possibilitiesconflu{
+    & .heading{
+        font-size: 28px;
+        line-height: 30px;
+        & .redspan{
+            
+        }
+    }
+    & .joiningcctxt{
+        
+    }
+}
+// Possibilities Section Ends
+}
+    
+    @include media-breakpoint-down(sm) {
+         // hero section start 
+        .videocontainerfluid{
+            
+            & .videobox::before{
+                    
+            }
+            & .videocontainer{
+                text-align: center;
+                }
+                & .releasetxt{
+                    font-size: 35px;
+                    line-height: 40px;
+                    padding-inline: 0;
+                }
+                & .beattxt{
+                    font-size: 15px;
+                    padding-inline: 0;
+                }
+                & .joiningtxt{
+                    padding-inline: 0;
+                }
+        }
+// hero section end
+// headphone section start
+            .headphoneconflu{
+        
+            & .headphoneimg{
+                
+                
+            }
+            & .headphoneheading{
+                    font-size: 30px;
+                    line-height: 40px;
+                & .redspan{
+                    
+                }
+            }
+            & .headpara{
+                
+            }
+        }
+//   Card Section Start
+        .cardcontainerflu{
+            margin-top: 25%;
+            & .card{
+                
+                & .cardnumber{
+                    width: 10%;
+                }
+                & .cardimgdiv{
+                    
+                }
+                & .card-body{
+                    & .card-title{
+                        font-size: 22px;
+                    }
+                    & .card-text{
+                    font-size: 13px;
+                    }
+                }
+            }
+            .joiningcctxt{
+                
+            }
+        }
+        
+// Card Section Ends
+
+// Upload Section Start
+.uploadconflu{
+    & .uploadtxt{
+        font-size: 25px;
+        line-height: 31px;
+        & .redspan{
+            
+        }
+    }
+    & .streamtxt{
+        font-size: 16px;
+    }
+    & .distritext{
+        font-size: 23px;
+        line-height: 25px;
+        & .redspan{
+            
+        }
+    }
+    & .sidelinertxt{
+        font-size: 16px;
+    }
+    & .mainimgdiv{
+        
+        & .mobileimg{
+            
+            
+        }
+    }
+    & .djparty{
+        
+    }
+    & .market{
+        font-size: 23px;
+        margin-block: 20px;
+        & .redspan{
+            
+        }
+    }
+    & .justpublishtxt{
+            font-size: 16px;
+    }
+}
+// Mobile Section Start
+.mobileconflu{
+    & .mobileimgdiv{
+        margin-left: 0;
+        width: 260px;
+        & .mobileimg{
+
+        }
+    }
+    & .rightchoicrtxt{
+        font-size: 24px;
+        line-height: 26px;
+        padding-bottom: 14px;
+            & .redspan{
+                
+        }
+    }
+    & .authorisedtxt{
+        font-size: 16px;
+    }
+    & .distrisec{
+        
+        & .starimgdiv{
+            width: 60px;
+            height: 60px;
+        }
+        & .distriheading{
+            font-size: 18px;
+        }
+        & .distritext{
+            font-size: 16px;
+        }
+    }
+}
+// Mobile Section Ends
+// Rounded Person Start
+.roundedpersonconflu{
+    & .heading{
+        font-size: 25px;
+        line-height: 27px;
+        & .redspan{
+            
+        }
+    }
+    & .para{
+        font-size: 16px;
+        line-height: normal;
+    }
+    & .personimgdiv{
+        width: 260px;
+    }
+}
+// Rounded Person Ends
+// Possibilities Section Start
+.possibilitiesconflu{
+    & .heading{
+        font-size: 26px;
+        line-height: 29px;
+        & .redspan{
+            
+        }
+    }
+    & .joiningcctxt{
+        
+    }
+}
+// Possibilities Section Ends
+}
+

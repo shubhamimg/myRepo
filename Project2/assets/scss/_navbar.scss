@@ -1,0 +1,168 @@
+.mainnavbar{
+    backdrop-filter: blur(8px);
+    & .navcontainer{
+        & .navbar-brand{
+        & .iconimg{
+            height: 38px;
+        }
+        }
+        & .navbar-nav{
+                    & .nav-item{
+                        & .nav-link{
+                            color: white;
+                            font-size: 17px;
+                            &:hover{
+                                color: red;
+                            }
+                        }
+                    }
+                    & .dropdown:hover > .dropdown-menu{
+                            display: block;
+                    }
+                    & .dropdown-item{
+                        color: white;
+                        font-size: 17px;
+                        font-weight: 500;
+                        &:hover{
+                            color: black;
+                            background-color: transparent;
+                        }
+                    }
+                }
+                & .navbar-toggler{
+                    width: 30px;
+                    height: 30px;
+                }
+            
+        
+    }
+}
+@include media-breakpoint(basic) {
+}
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {}
+
+@include media-breakpoint-up(lg) {}
+
+@include media-breakpoint-up(xl) {}
+
+@include media-breakpoint-up(xxl) {}
+
+
+@include media-breakpoint-down(xxl) {
+    .mainnavbar{
+        & .navcontainer{
+            & .navbar-brand{
+            & .iconimg{
+            }
+            }
+            & .navbar-nav{
+                        & .nav-item{
+                            & .nav-link{
+                                &:hover{
+                                }
+                            }
+                        }
+                        & .dropdown:hover > .dropdown-menu{
+                        }
+                    }
+                
+            
+        }
+    }
+}
+
+@include media-breakpoint-down(xl) {
+    .mainnavbar{
+        & .navcontainer{
+            & .navbar-brand{
+            & .iconimg{
+            }
+            }
+            & .navbar-nav{
+                        & .nav-item{
+                            & .nav-link{
+                                font-size: 15px;
+                                &:hover{
+                                }
+                            }
+                        }
+                        & .dropdown:hover > .dropdown-menu{
+                        }
+                    }
+                
+            
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .mainnavbar{
+        & .navcontainer{
+            & .navbar-brand{
+            & .iconimg{
+            }
+            }
+            & .navbar-nav{
+                align-items: start !important;
+                        & .nav-item{
+                            & .nav-link{
+                                &:hover{
+                                }
+                            }
+                        }
+                        & .dropdown:hover > .dropdown-menu{
+                        }
+                    }
+                
+            
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .mainnavbar{
+        & .navcontainer{
+            & .navbar-brand{
+            & .iconimg{
+            }
+            }
+            & .navbar-nav{
+                        & .nav-item{
+                            & .nav-link{
+                                &:hover{
+                                }
+                            }
+                        }
+                        & .dropdown:hover > .dropdown-menu{
+                        }
+                    }
+                
+            
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .mainnavbar{
+        & .navcontainer{
+            & .navbar-brand{
+            & .iconimg{
+            }
+            }
+            & .navbar-nav{
+                        & .nav-item{
+                            & .nav-link{
+                                &:hover{
+                                }
+                            }
+                        }
+                        & .dropdown:hover > .dropdown-menu{
+                        }
+                    }
+                
+            
+        }
+    }
+}
